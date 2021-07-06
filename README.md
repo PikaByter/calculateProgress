@@ -2,7 +2,7 @@
 
 B站是个好地方，上面有好多视频可以学习，但有时候网络不稳定，于是便使用工具将视频下载了下来。在看视频学习的过程中，想统计一下自己的学习进度，便开发了这个工具
 
-github地址：
+github地址：https://github.com/Andrew201801/calculateProgress
 
 ## 使用教程：
 
@@ -11,16 +11,8 @@ github地址：
 * 在放视频的文件夹下，新建一个pass目录，将看过的视频放进去
 
   * 如下例，数据库文件夹下，有《149什么是函数依赖.flv》等一堆看过的文件，而在数据库文件夹下的pass文件夹内，包含了《 001数据库系统课程简要介绍.flv》等一堆看过的文件
-
-  * E:/数据库
-    │  149什么是函数依赖.flv
-
-    │  ...
-
-  * └─pass
-            001数据库系统课程简要介绍.flv
-
-    ​		...
+  * ![](https://gitee.com/AndrewYu/PicGo/raw/master/img/20210706155345.png)
+  * ​		...
 
 * cd 进release文件的目录，使用命令行调用：
 
@@ -63,7 +55,7 @@ github地址：
 
 ![image-20210706152731875](https://gitee.com/AndrewYu/PicGo/raw/master/img/image-20210706152731875.png)
 
-时长数据为：40 81 BC 0A 3D 70 A3 D7(都是十六进制)
+时长数据为：40 81 BC 0A 3D 70 A3 D7(都是十六进制，需要解析为double)
 
 代码：
 
